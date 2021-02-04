@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+}
+
+:root{
+    --primary-color: #4F46E5;
+    --black: #111827
+}
+
+/* Navigation */
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 4rem; 
+    font-size: xx-large;
+    border-radius: 0rem 4rem 0rem 4rem;
+}
+
+.heading{
+    text-align: center;
+}
+
+/* Header */
+.hero{
+    padding: 1rem;
+}
+
+.hero .hero-img{
+    display: block;
+    margin: auto;
+    max-width: 150px;
+    padding: 1rem;
+
+}
+
+/* Text area input */
+textarea{
+    width: 60%;
+    height: 10vh;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Button */
+button{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: larger;
+    font-family: 'Dancing Script', cursive ;
+    margin: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+
+/* output */
+.output-box-text{
+    margin: 2rem;
+    font-size: larger;
+}
+
+.output-box{
+    box-sizing: border-box;
+    width: 63%;
+    height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    margin: 2rem;
+    padding: 1rem;
+    font-size: large;
+
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    color: white;
+    text-align: center;
+    border-radius: 4rem 0rem 4rem 0rem;
+    
+}
+
+.footer .footer-header {
+    font-weight: bolder;
+    font-size: x-large;
+    color: var(--black);
+}
+
+.footer-text{
+    font-size: larger;
+}
